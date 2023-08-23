@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Search</title>
+    </head>
+    <header>
+        <ul>
+            <li> <a href="index.html"> Google Search</ahref></a></li>
+        </ul>
+        
+    </header>
+    <body>
+        <h3>Advanced Search</h3>
+        <hr class="adp" />
+            <form class="adp" action="https://www.google.com/search">
+                <h4>For pages with...</h4>
+                <table>
+                    <tr>
+                        <td style="text-align: left;width: 200px;">all these words: </td>
+                        <td><input class="adp" type="text" name="as_q"></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;width: 200px;">this exact word or phrase: </td>
+                        <td><input class="adp" type="text" name="as_epq"></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;width: 200px;">any of these words: </td>
+                        <td><input class="adp" type="text" name="as_oq"></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: left;width: 200px;">none of these words: </td>
+                        <td><input class="adp" type="text" name="as_eq"></td>
+                    </tr>
+                </table>
+                <table style="margin-top: 0px; margin-bottom: 30px;">
+                    <tr>
+                        <td style="text-align: left;width: 200px;">numbers ranging from: </td>
+                        <td><input style="width: 22vw;" class="adp" type="text" name="as_nlo"></td>
+                        <td style="text-align: left; width: 15px;"></td>
+                        <td style="text-align: left; width: 30px;margin-left: 25px;">to: </td>
+                        <td><input style="width: 22vw;" class="adp" type="text" name="as_nhi"></td>
+                    </tr>
+                </table>
+                <input type="submit" id="adv" value="Advanced Search">
+            </form>
+    </body>
+</html>
